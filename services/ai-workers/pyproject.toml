@@ -1,0 +1,19 @@
+[project]
+name = "harmony-ai-workers"
+version = "0.1.0"
+description = "AI workers for Harmony Jewels Digital CMO platform"
+requires-python = ">=3.11"
+dependencies = [
+  "langchain>=0.2.12",
+  "langgraph>=0.1.19",
+  "pydantic>=2.8.2",
+  "psycopg[binary]>=3.2.1",
+  "redis>=5.0.8",
+  "httpx>=0.27.0",
+  "tenacity>=8.5.0",
+  "structlog>=24.2.0",
+  "opentelemetry-sdk>=1.26.0"
+]
+
+[tool.uv]
+dev-dependencies = []

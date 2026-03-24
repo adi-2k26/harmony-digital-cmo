@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/harmony/[...path].py": {
+      "maxDuration": 300
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/harmony-api/:path*",
+      "destination": "/api/harmony/:path*"
+    }
+  ]
+}

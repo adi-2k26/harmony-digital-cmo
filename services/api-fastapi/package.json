@@ -1,0 +1,10 @@
+{
+  "name": "api-fastapi",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python -m uvicorn main:app --host 0.0.0.0 --port 8001 --reload",
+    "smoke": "python scripts/smoke_openapi.py",
+    "build": "python -m compileall ."
+  }
+}

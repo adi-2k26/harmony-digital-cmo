@@ -1,0 +1,1 @@
+"""Harmony FastAPI backend package."""

@@ -1,0 +1,9 @@
+{
+  "name": "@harmony/ai-workers",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "python -m src.worker",
+    "build": "python -m compileall src"
+  }
+}

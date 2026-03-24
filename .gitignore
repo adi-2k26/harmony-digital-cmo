@@ -1,0 +1,9 @@
+node_modules
+.next
+dist
+__pycache__
+.venv
+.env
+apps/web/.env.local
+*.tsbuildinfo
+*.egg-info/

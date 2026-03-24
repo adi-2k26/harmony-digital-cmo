@@ -1,0 +1,20 @@
+{
+  "name": "harmony-cmo-platform",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Hybrid multi-agent Digital CMO platform for Harmony Jewels.",
+  "workspaces": [
+    "apps/*",
+    "services/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "npm --workspace apps/web run dev",
+    "dev:api": "npm --workspace apps/api run dev",
+    "dev:api-fastapi": "cd services/api-fastapi && python -m uvicorn main:app --host 0.0.0.0 --port 8001 --reload",
+    "smoke:api-fastapi": "cd services/api-fastapi && python scripts/smoke_openapi.py",
+    "dev:workers": "npm --workspace services/ai-workers run dev",
+    "build": "npm run -ws build",
+    "lint": "npm run -ws lint"
+  }
+}
