@@ -152,5 +152,3 @@ If you deploy with Docker, set **`API_INTERNAL_URL`** (or **`NEXT_PUBLIC_API_BAS
 - `/agents`, `/agents/[id]` — catalog and per-agent documentation + optional **Run full analysis** (same endpoint as module pages)
 - `/report-center` — reporting
 
-
-
